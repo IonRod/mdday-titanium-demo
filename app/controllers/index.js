@@ -25,8 +25,7 @@ var _tasks = Alloy.createCollection('task');
 	//});
 	
 	//using promise to load collection
-	_tasks.fetch() 
-	.then(updateUI);
+	
 })();
 
 
@@ -35,6 +34,14 @@ function open() {
 }
 
 //---------------------------
+function onRelease(e) {
+	_tasks.fetch() 
+	.then(updateUI)
+	.finally(function() {
+		e.hide();
+	});
+}
+
 
 function onClick(e) {
 	console.log('Clicked');

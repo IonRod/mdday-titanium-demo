@@ -1,16 +1,18 @@
 <Alloy>
 	<Window id="win" class="container">
 		<View id="listContainer">
-			<ListView id="list" defaultItemTemplate="template">
-				<Templates>
-					<ItemTemplate name="template">
-						<View id="background" bindId="background" onSingletap="onClick">
-							<Label id="name" color="black" bindId="name"/>
-						</View>
-	                </ItemTemplate>	                
-				</Templates>
-				<ListSection id="section"></ListSection>
-			</ListView>
+			<Widget id="p2r" src="nl.fokkezb.pullToRefresh" onRelease="onRelease">
+				<ListView id="list" defaultItemTemplate="template">
+					<Templates>
+						<ItemTemplate name="template">
+							<View id="background" bindId="background" onSingletap="onClick">
+								<Label id="name" color="black" bindId="name"/>
+							</View>
+		                </ItemTemplate>	                
+					</Templates>
+					<ListSection id="section"></ListSection>
+				</ListView>
+			</Widget>
 		</View>
 		<TextField id="text"></TextField>
 		<Button id="add" onSingletap="onAdd">Тут нажимать</Button>
