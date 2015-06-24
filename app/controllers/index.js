@@ -18,9 +18,15 @@ var _tasks = Alloy.createCollection('task');
 	
 	_tasks.on('add', updateUI);
 	
-	_tasks.fetch({
-		success: updateUI
-	});
+	
+	//useing callback to load collection
+	//_tasks.fetch({
+	//	success: updateUI
+	//});
+	
+	//using promise to load collection
+	_tasks.fetch() 
+	.then(updateUI);
 })();
 
 
