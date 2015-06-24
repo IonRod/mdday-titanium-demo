@@ -5,7 +5,7 @@
 				<Templates>
 					<ItemTemplate name="template">
 						<View id="background" bindId="background" onSingletap="onClick">
-							<Label id="name" bindId="name"/>
+							<Label id="name" color="black" bindId="name"/>
 						</View>
 	                </ItemTemplate>	                
 				</Templates>
