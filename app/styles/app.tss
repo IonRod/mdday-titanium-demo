@@ -1,0 +1,17 @@
+".container": {
+	layout: 'vertical',
+	top: '40dp'
+}
+
+".container[platform=android]": {
+	backgroundColor: 'red'
+}
+
+
+".container[platform=ios]": {
+	backgroundColor: 'green'
+}
+
+"TextField[platform=android]": {
+	color: 'black'
+}

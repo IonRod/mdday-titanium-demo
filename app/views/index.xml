@@ -1,0 +1,18 @@
+<Alloy>
+	<Window id="win" class="container">
+		<View id="listContainer">
+			<ListView id="list" defaultItemTemplate="template">
+				<Templates>
+					<ItemTemplate name="template">
+						<View id="background" bindId="background" onSingletap="onClick">
+							<Label id="name" bindId="name"/>
+						</View>
+	                </ItemTemplate>	                
+				</Templates>
+				<ListSection id="section"></ListSection>
+			</ListView>
+		</View>
+		<TextField id="text"></TextField>
+		<Button id="add" onSingletap="onAdd">Тут нажимать</Button>
+	</Window>
+</Alloy>

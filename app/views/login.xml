@@ -1,0 +1,9 @@
+<Alloy>
+	<Window id="win" class="container">
+		<Label id="loginLbl" class="elem"/>
+		<TextArea id="login" class="elem"/>
+		<Label id="passLbl" class="elem"/>
+		<TextArea id="pass" class="elem"/>
+		<Button id="btn" onSingletap="onClick" class="elem"/>
+	</Window>
+</Alloy>

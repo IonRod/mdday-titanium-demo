@@ -1,0 +1,25 @@
+".elem": {
+	left: '10dp',
+	right: '10dp',
+	height: Ti.UI.SIZE,
+}
+
+"#loginLbl": {
+	textid: 'login'
+}
+
+"#login": {
+	
+}
+
+"#passLbl": {
+	textid: 'password'
+}
+
+"#pass": {
+
+}
+
+"#btn": {
+	titleid: 'doLogin'
+}

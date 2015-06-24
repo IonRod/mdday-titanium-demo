@@ -1,0 +1,60 @@
+"#win": {
+	layout: 'composite',	
+	bottom: '0dp',
+	left: '0dp',
+	right: '0dp',
+	backgroundColor: 'white'
+} 
+
+"#listContainer": {
+	top: '0dp',
+	bottom: '20%',
+	left: '0dp',
+	right: '0dp',
+}
+
+"#list": {
+	top: '0dp',
+	bottom: '0dp',
+	left: '0dp',
+	right: '0dp',
+}
+
+
+//template:
+
+
+"#background": {
+	height: Ti.UI.SIZE,
+	left: '0dp',
+	right: '0dp'
+}
+
+"#name": {
+	height: Ti.UI.SIZE,
+	width: Ti.UI.SIZE,
+	font: {
+		fontSize: '20dp'
+	}
+}
+
+//controls:
+
+"#text": {
+	height: Ti.UI.SIZE,
+	left: '10dp',
+	right: '10dp',
+	bottom: '40dp',
+	hintText: 'Сюда вводить'
+}
+
+"#text[platform=android]": {
+	bottom: '60dp',
+}
+
+"#add": {
+	height: Ti.UI.SIZE,
+	left: '10dp',
+	right: '10dp',
+	bottom: '10dp',
+}

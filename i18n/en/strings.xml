@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<resources>
+	<string name="login">Логин</string>
+	<string name="password">Пароль</string>
+	<string name="doLogin">Логинимся</string>
+</resources>
